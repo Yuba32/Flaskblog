@@ -161,3 +161,6 @@ cython_debug/
 
 #ignore sqlite3
 *.exe
+
+#ignore dbfile
+*.db
