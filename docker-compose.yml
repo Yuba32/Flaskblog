@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    image: flaskblog
+    container_name: flaskblog_ins
+    ports:
+      - 5000:5000
+
+volumes:
+  blog:
